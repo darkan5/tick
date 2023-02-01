@@ -1,39 +1,20 @@
-*{
-    font-family: Tahoma;
+.field {
+    width: 100px ;
+    height: 100px;
+    border:2px solid black ;
+    list-style: none;
+    padding-left: 0px;
+    flex-basis:  29%;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ 
+    
 }
-.status, .result {
-    font-size:20px;
-
-}
-.board__row {
-    display:flex;
-}
-
-.board__cell {
-    width:100px;
-    height:100px;
-    border:2px solid gray;
-    border-radius:10px;
-    cursor: pointer;
-}
-
-.board__cell:hover{
-    background-color: lightgray;
-}
-
-.board__cell--kolko {
-    background-image: url(images/kolko.png);
-}
-
-.board__cell--krzyzyk {
-    background-image: url(images/krzyzyk.png);
-}
-
-.info {
-    display:flex;
-    justify-content: space-around;
-}
-
-.info>div {
-    padding:10px;
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+   
 }
